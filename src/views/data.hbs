@@ -1,0 +1,25 @@
+<h1>Cálculo de interés</h1>
+
+<form action="/" method=""POST">
+   <input 
+     type="number"
+     required="true"
+     name="capital"
+     placeholder="Capital"
+   >
+   <input 
+     type="number"
+     required="true"
+     name="rate"
+     placeholder="Tasa de interés anual"
+   >
+   <input 
+     type="number"
+     required="true"
+     name="years"
+     placeholder="Número de años"
+   >
+   <button type="submit">Calcular interés</button>
+
+   <p>Interés: {{interest}}</p>
+</form>
